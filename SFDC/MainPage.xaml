@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SFDC.MainPage">
+    
+
+    <Grid RowDefinitions="Auto, Auto, Auto, *, Auto, Auto, Auto"
+          ColumnDefinitions="*, *"
+          Padding="40">
+
+        <Button Text="Clock In" 
+                Clicked="GoToClockIn" 
+                BackgroundColor="#fe4010" 
+                TextColor="White"
+                FontSize="42" 
+                HeightRequest="150" 
+                Margin="5" 
+                Grid.Row="0" 
+                Grid.Column="0"/>
+
+        <Button Text="Clock Out" 
+                Clicked="GoToClockOut" 
+                BackgroundColor="#fe4010" 
+                TextColor="White" 
+                FontSize="42" 
+                HeightRequest="150" 
+                Margin="5" 
+                Grid.Row="0" 
+                Grid.Column="1"/>
+
+        <Button Text="Clock On"
+                Clicked="GoToClockOn"
+                BackgroundColor="#fe4010" 
+                TextColor="White" 
+                FontSize="42" 
+                HeightRequest="150" 
+                Margin="5" 
+                Grid.Row="1" 
+                Grid.Column="0"/>
+
+        <Button Text="Clock Off"
+                Clicked="GoToClockOff"
+                BackgroundColor="#fe4010" 
+                TextColor="White" 
+                FontSize="42" 
+                HeightRequest="150" 
+                Margin="5" 
+                Grid.Row="1" 
+                Grid.Column="1"/>
+
+        <Button Text="Supervisor"
+                Clicked="GoToSupervisor"
+                BackgroundColor="#fe4010" 
+                TextColor="White" 
+                FontSize="42" 
+                HeightRequest="150" 
+                Margin="5" 
+                Grid.Row="2" 
+                Grid.Column="0"/>
+
+        <Button Text="Clock In / Clock Out"
+                Clicked="GoToClockInClockOut"
+                BackgroundColor="#fe4010" 
+                TextColor="White" 
+                FontSize="42" 
+                HeightRequest="150" 
+                Margin="5" 
+                Grid.Row="2" 
+                Grid.Column="1"/>
+
+    </Grid>
+
+</ContentPage>

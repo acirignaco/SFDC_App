@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="SFDC.ClockIn"
+             Title="Clock In">
+    
+    <Grid RowDefinitions="Auto, Auto, Auto, *, Auto, Auto, Auto"
+          ColumnDefinitions="*, *"
+          Padding="40">
+
+        <Label Text="Employee No." 
+               FontSize="32" 
+               FontAttributes="Bold"
+               Grid.Row="0" 
+               Grid.Column="0"/>
+        
+        <Entry HeightRequest="125" 
+               FontSize="50"
+               FontAttributes="Bold" 
+               Grid.Row="1" 
+               Grid.ColumnSpan="2"/>
+
+        <Button Text="Back"
+                Clicked="BackToMain"
+                BackgroundColor="CornflowerBlue"
+                TextColor="White"
+                FontSize="42"
+                HeightRequest="150"
+                Margin="5"
+                Grid.Row="2"
+                Grid.Column="0"/>
+
+        <Button Text="Clock In"
+                
+                BackgroundColor="MediumSeaGreen"
+                TextColor="White"
+                FontSize="42"
+                HeightRequest="150"
+                Margin="5"
+                Grid.Row="2"
+                Grid.Column="1"/>
+
+
+    </Grid>
+</ContentPage>
