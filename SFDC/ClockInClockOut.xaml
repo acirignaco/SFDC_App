@@ -39,7 +39,7 @@
                    Grid.ColumnSpan="2">
                 <TableRoot>
                     <TableSection Title="Frame around table is just there to let user see table exists">
-
+                        
                     </TableSection>
                     
                 </TableRoot>
